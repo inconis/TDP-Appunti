@@ -13,3 +13,5 @@ Lo schema proposto dal **pattern MVC** è composto da:
 Negli esercizi che svolgo tutte le classi DAO effettueranno la ricerca nel databse e potranno essere interrogate **solo dal** `Model.java` che avrà tutte le classi necessarie affinchè venga interrogato **solo lui**
 
 Il programma deve essere in grado di funzionare completamente in modalità testuale generalmente con il file `TestModel.java`
+
+>Fonte https://www.html.it/pag/18299/il-pattern-mvc/
