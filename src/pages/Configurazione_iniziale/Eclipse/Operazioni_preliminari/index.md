@@ -37,7 +37,7 @@ La procedura cerca di seguire l'ordine dei files nei progetti importati.
 
 
 ###2. Nel file `FXMLController.java` aggiungere quanto segue
-Il file deve essere precedentemente impostato [seguendo questa guida](/Configurazione_iniziale/SceneBuilder/) 
+Il file deve essere precedentemente impostato [seguendo questa guida](../../SceneBuilder/) 
 ``` Javascript
 public class FXMLController {
 	private Model model;

@@ -8,7 +8,7 @@ const notes = (props) => {
   const { title } = notesMarkdown.frontmatter;
   return (
     <Layout>
-      <h1>{title}</h1>
+      <h2 style={{marginTop: '1.45rem',}}>{title}</h2>
       <div dangerouslySetInnerHTML={{__html: notesMarkdown.html}}></div>
     </Layout>
   );

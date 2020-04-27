@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix: "/TDP-Appunti",
   siteMetadata: {
-    title: 'Appunti del corso Tecniche di programamzione',
+    title: 'Tecniche di programamzione',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

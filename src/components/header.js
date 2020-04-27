@@ -15,6 +15,7 @@ const Header = ({ siteTitle }) => (
         textAlign: 'center',
         maxWidth: 960,
         padding: '1.45rem 1.0875rem',
+
       }}
     >
       <h1 style={{ margin: 0 }}>
@@ -24,6 +25,21 @@ const Header = ({ siteTitle }) => (
             color: 'black',
             fontFamily: 'Courier, monospace',
             textDecoration: 'none',
+
+          }}
+        >
+          {"Appunti del corso"}
+        </Link>
+
+        <div></div>
+
+        <Link
+          to="/"
+          style={{
+            color: 'black',
+            fontFamily: 'Courier, monospace',
+            textDecoration: 'none',
+
           }}
         >
           {siteTitle}
